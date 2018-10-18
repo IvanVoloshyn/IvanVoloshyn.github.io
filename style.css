@@ -1,0 +1,52 @@
+﻿ 	 .back{
+ 	  background: #E1E1E1;
+ 	  }
+ 	  .red{
+ 	  	color: red;
+ 	  	background-color: #FEF2B8;
+ 	  	width: 135px;
+                font-weight: bold;
+                font-family: Arial;
+                font-size:20px;
+ 	  }
+ 	  .block1 { 
+    	 	background: #ffffff;
+    	 	padding: 5px;
+    	 	padding-right: 20px; 
+    	 }
+      	.block3 { 
+   		position: relative; 
+    		top: 0px; 
+    		left: 0px; 
+   	}
+   	header, footer{
+	   	background: #6E9FEC;
+   		padding: 5px;
+	   	font-family: Calibri;
+      	}
+   	header, footer,  .block1{
+   		border: solid 1px #969696; 
+   	}
+   	#navigation {
+	   	height: 37px;
+        	background-color: #A5A5A5;
+	        padding-left: 25px;
+        }
+       #navigation li { 
+        	float: left;
+	        width: 200px;
+        	height: 100%;
+	        display: inline;
+       }
+        #navigation li a {
+        	display: block;
+	        padding: 6px;
+        	width: 200px;
+	        color: #0F0F0F;
+        	text-decoration: none;
+	        text-align: left;
+        	font-weight: bold;
+	        font-family: Calibri;
+        	font-size:20px;
+      }
+       #navigation li:hover { background-color: #f90; }
