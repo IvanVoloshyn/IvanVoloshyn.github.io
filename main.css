@@ -1,0 +1,157 @@
+﻿html, body {
+	font-family: 'Lato', sans-serif;
+	font-size=15px;
+}
+/*.............................
+GRID
+*/
+#main {
+	display: flex;
+        display: -webkit-flex; /* Safari */
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 1170px;
+}
+#main div {
+	margin-top: -85px;
+	width: 195px;
+}
+.img2{
+	float: left;
+	padding-left: 1180px;
+        padding-top: 20px;
+}
+.searchbar{/*контейнер для поля пошуку*/
+	float: left;
+	margin-left: 550px;
+	margin-top: -70px;
+}
+.searchbar-button{/*контейнер для кнопки поля пошуку*/
+        float: left;
+	margin-left: 1085px;
+	margin-top: -54px;
+}
+/*.............................
+GRID
+*/
+/*.............................
+HEADER
+*/
+.header{ /*крапка значить звертання до класу*/
+	padding-bottom: 10px;
+ 	background-color: #222222;
+ 	padding-top: 17px;
+}
+.quicklinks {
+	background-color: #222222;
+	display: flex;
+	font-size: 12px;
+	margin-left: 920px;
+}
+.quicklinks a {
+	color: white;
+	padding: 0px 14px;
+	text-decoration: none;
+	text-align: center;
+}
+.line {/*вертикальны лінії в Quick Menu*/
+	border-left: 1px solid white;
+	padding: 1px;
+}
+.head_text {/*текст біля логотипу корзина*/
+	color: white;
+	font-size: 12px;
+	margin-top: -55px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+ .input{ /*стиль поля пошуку*/
+	border:none;
+	display:block;
+	font-size:15px;
+ 	padding:9px;
+	width:300%
+}
+ .border{/*стиль рамки поля пошуку*/
+	border-bottom:2px solid white;
+	border-radius: 5px;
+}
+.btn-default{/*стиль кнопки поля пошуку*/
+	background-color: #f10e34;
+	border:1px solid #f10e34;
+	border-radius: 0px 5px 5px 0px;	
+	display:inline-block;
+	color: white;	
+	font-size:15px;
+	padding:9px 18px;
+}
+/*.............................
+HEADER
+*/
+/*.............................
+SECOND MENU
+*/
+.second_menu{
+	background-color: #F10C34;
+ 	padding-top: 50px;
+ 	padding-bottom: 0px;
+ }
+ .navbar2-1 {/*іконка списку в Second Menu*/
+	background-color: none;
+	display: flex;
+	font-size: 15px;
+	margin-left: 140px;
+}
+.navbar2-1 a {
+	color: white;
+	margin-top: -34px;
+	padding: 0px 20px;
+	text-align: center;	
+	text-decoration: none;
+}
+ .navbar2-2 {/*CATEGORIES в Second Menu*/
+	background-color: none;
+	display: flex;
+	font-size: 15px;
+	margin-left: 140px;
+}
+.navbar2-2 a {
+	color: white;
+	margin-top: -34px;
+	padding: 0px 50px;
+	text-decoration: none;
+	text-align: center;	
+}		
+ .navbar3 {/*решта навігації з Second Menu*/
+	background-color: none;
+	display: flex;
+	font-size: 15px;
+	margin-left: 450px;
+}
+.navbar3 a {
+	color: white;
+	margin-top: -34px;
+	padding: 0px 20px;
+	text-align: center;	
+	text-decoration: none;
+}	
+/*.............................
+SECOND MENU
+*/
+
+/*.............................
+PORTFOLIO SINGLE PAGE
+*/
+
+/*.............................
+PORTFOLIO SINGLE PAGE
+*/
+
+/*.............................
+FOOTER
+*/
+
+
+/*.............................
+FOOTER
+*/
