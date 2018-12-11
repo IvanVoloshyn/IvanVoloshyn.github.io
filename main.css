@@ -3,6 +3,10 @@
 	font-size=15px;
 	background-color: white;
 }
+.clearfix {
+	clear: both;
+	float: none;
+}
 /*.............................
 GRID
 */
@@ -24,20 +28,19 @@ GRID
 #main_body {
 	display: flex;
         display: -webkit-flex; /* Safari */
-	margin-left: auto;
+	margin-left: auto;/*ценрування відносно батьківського елемента, якщо браузер менше 100%*/
 	margin-right: auto;
  	width: 1170px;
 }
 #main_body div {/*контейнер для меню CATEGORIES*/
-	margin-top: -1284px;
-	width: 295px;
+	width: 287px;
 }
 .img2{
 	float: left;
 	padding-left: 1180px;
         padding-top: 18px;
 }
-.searchbar{/*контейнер для поля пошуку*/
+.searchbar1{/*контейнер для поля пошуку*/
 	float: left;
 	margin-left: 550px;
 	margin-top: -70px;
@@ -81,14 +84,14 @@ HEADER
 	padding-bottom: 10px;
 	padding-left: 50px;
 }
- .input{ /*стиль поля пошуку*/
+ .input1{ /*стиль поля пошуку*/
 	border:none;
 	display:block;
 	font-size:15px;
  	padding:9px;
 	width:300%
 }
- .border{/*стиль рамки поля пошуку*/
+ .border1{/*стиль рамки поля пошуку*/
 	border-bottom:2px solid white;
 	border-radius: 5px;
 }
@@ -108,7 +111,7 @@ HEADER
 SECOND MENU
 */
 .second_menu{
-	background-color: #F10C34;
+	background-color: #f10e34;
  	padding-top: 50px;
  	padding-bottom: 0px;
  }
@@ -159,7 +162,8 @@ BODY
 */
 .body_background{
 	background-color: #F3F3F3;
- 	padding-top: 2568px;
+ 	/*padding-top: 2568px;*/
+	height: 2408px;
  }
  .banner {
 	float: left;
@@ -176,10 +180,9 @@ CATEGORIES
 	display: block;
 	list-style-type: none;
 	list-style-image: url('caret-right.png');
-/*	border-bottom: 1px solid #FFF;*/
  }
 li a {
-	border-top: 1px solid #FFF;
+	border-top: 1px solid #FFF;	
 	border-color: rgba(234,234,234,1);
 	color: #000;
 	display: block;
@@ -199,19 +202,22 @@ CATEGORIES
 BANNER BOTTOM
 */
 .banner_menu{
-	background-color: #F10C34;
-	margin: -2190px 70px 0px 460px;
+	background-color: #f10e34;
+	margin: -90px 0px 0px 452px;
+	/*padding-left: 20px;*/
 	padding: 9px 0px 9px 0px;
-	padding-left: 50px;
+	height: 72px;
+	width: 834px;
  }
 .banner_navbar {/*решта навігації з Second Menu*/
 	background-color: none;
 	display: flex;
 	font-size: 15px;
+	padding-left: 28px;
 }
 .banner_navbar a {
 	color: white;
-	padding: 15px 62px 15px 27px;
+	padding: 15px 40px 15px 38px;
 	line-height: 1.4;
 	text-align: center;
 	text-decoration: none;
@@ -224,20 +230,20 @@ HOT DEALS
 */
 .hot_deals{
 	background-color: White;
-	margin: 60px 996px 0px 124px;
+	border: 1px solid #E6E6E6;
+	margin: 38px 0px 0px 124px;
 	padding-left: 20px;
-	padding-top: 10px;
 	padding-bottom: 424px;
+	width: 267px;
  }
 .title_text1{
 	color: #000;
-	font-size: 18px;
+	font-size: 21px;
 	font-weight: bold;
-	padding-right: 146px;
 }
  .hot_deals_img {
 	float: left;
-	padding: 20px 0px 10px 5px;
+	padding: 20px 0px 10px 0px;
 	/*border-top: 1px solid #FFF;*/
 	border-color: rgba(234,234,234,1);
 }
@@ -261,6 +267,8 @@ mark {
 	float: left;
 	border-bottom: 1px solid #FFF;
 	border-color: rgba(234,234,234,1);
+	margin-top: 4px;
+	width: 250px;
 }
 /*.............................
 HOT DEALS
@@ -270,45 +278,41 @@ NEW PRODUCTS
 */
 .new_products{
 	background-color: White;
-	margin-top: -434px;
-	margin-right: 72px;
-	margin-bottom: 0px;
-	margin-left: 460px;
+	margin-top: -423px;
+	margin-left: 451px;
 	padding-left: 15px;
 	padding-top: 10px;
-	padding-bottom: 424px;
+	height: 414px;
+	width: 822px;
  }
 .title_text2{
 	color: #000;
-	font-size: 19px;
+	font-size: 21px;
 	font-weight: bold;
-	padding-right: 696px;
-	margin-top: -60px;
+	margin-top: -62px;
 	padding-top: -40px;
+	margin-left: 5px;
 }
 .new_products_img {
 	float: left;
-	padding: 20px 0px 10px 5px;
-	border-top: 1px solid #FFF;
+	padding: 25px 14px 10px 10px;
 	margin-top: -234px;
-	margin-right: 6px;
 }
- .grey_border_long {
+ .new_products_border {
 	float: left;
-	margin-top: -240px;
+	margin-left: 10px;
+	margin-top: -236px;
 	border-bottom: 1px solid #FFF;
 	border-color: rgba(234,234,234,1);
+	width: 776px;
 }
 .new_products_text2	{
 	color: #000;
 	float: left;
 	font-size: 15px;
 	line-height: 1.7;
-	/*margin-top: 90px;*/
-	/*margin-top: 30px;*/
 	margin-left: -168px;
 	text-align: center;
-
 }
 /*.............................
 NEW PRODUCTS
@@ -318,19 +322,275 @@ SPECIAL DEALS
 */
 .special_deal {
 	background-color: White;
-	margin: 35px 996px 0px 124px;
+	margin: 30px 0px 0px 124px;
 	padding-left: 20px;
-	padding-top: 10px;
 	padding-bottom: 424px;
+	width: 267px;
  }
- .title_text_hot_deal {
+ .title_text_special_deal {
 	color: #000;
-	font-size: 18px;
+	font-size: 21px;
 	font-weight: bold;
-	padding-right: 126px;
 }	
 /*.............................
 SPECIAL DEALS
+*/
+/*.............................
+BANNER01
+*/
+.banner01 {
+	background-color: White;
+	margin-left: 451px;	
+	margin-top: -424px;
+	height: 225px;
+	width: 396px;
+ }
+.banner01_text{
+	color: #DFDBDC;
+	float: left;
+	font-size: 32px;
+	line-height: 1;
+	margin-top: -350px;
+	text-align: right;
+	margin-left: 675px;
+	width: 150px;
+}
+.banner01_text2 {
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+	margin-top: -25px;
+}
+.banner01_text3 {
+	font-size: 14px;
+	color: #108cee;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.banner01_text4 {
+	font-size: 12px;
+	color: #DFDBDC;
+	padding-top: 8px;
+}
+/*.............................
+BANNER01
+*/
+/*.............................
+BANNER02
+*/
+.banner02 {
+	background-color: White;
+	margin-top: -388px;
+	margin-left: 890px;
+	height: 225px;
+	width: 396px;
+ }
+ .banner02_text{
+	color: #DFDBDC;
+	font-size: 32px;
+	line-height: 1;
+	margin-top: -190px;
+	text-align: right;
+	margin-left: 1101px;
+	width: 150px;
+}
+/*.............................
+BANNER02
+*/
+/*.............................
+NEWSLETTERS
+*/
+.newsletters {
+	background-color: White;
+	margin: 275px 0px 0px 124px;
+	padding-left: 20px;
+	height: 266px;
+	width: 267px;
+ }
+.newsletters_grey_border{
+	float: left;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	width: 247px;
+}
+.newsletters_text2{
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.2;
+}
+.searchbar2{/*контейнер для поля пошуку*/
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.input2{ /*стиль поля пошуку 2*/
+	background-color:  #F3F3F3;
+	display:block;
+	margin-top: -8px;
+ 	padding: 12px;
+	width: 227px;
+}
+ .border2{/*стиль рамки поля пошуку 2*/
+	border: 1px solid #F3F3F3;
+	border-radius: 5px;
+}
+.btn_2{/*стиль кнопки поля пошуку 2*/
+	background-color: #f10e34;
+	border:6px solid #f10e34;
+	border-radius: 20px;	
+	color: white;	
+	display:inline-block;
+	font-size:16px;
+	font-weight: bold;
+	padding:9px 18px;
+	text-decoration: none;
+	width: 85px;
+}
+/*.............................
+NEWSLETTERS
+*/
+/*.............................
+LATEST PRODUCTS
+*/
+.latest_products{
+	background-color: White;
+	margin-top: -462px;
+	margin-left: 451px;
+	padding-left: 15px;
+	height: 424px;
+	width: 822px;
+ }
+.latest_products_img {
+	float: left;
+	margin-top: -210px;
+	padding: 0px 14px 10px 10px;
+}
+ .latest_products_border {
+	float: left;
+	margin-left: 10px;
+	margin-top: -265px;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	width: 776px;
+}
+.latest_products_title{
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: -38px;
+	margin-left: 5px;
+}
+.latest_products_text	{
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.7;
+	margin-left: -160px;
+	margin-top: -8px;
+	text-align: center;
+}
+/*.............................
+LATEST PRODUCTS
+*/
+/*.............................
+FULLWIDTH BANNER
+*/
+.fullwidth_banner{
+	background-color: White;
+	margin-top: 36px;
+	margin-left: 451px;
+	height: 226px;
+	width: 838px;
+ }
+ .three_notebooks_img{
+	padding: 32px 0px 0px 25px;
+ }
+ .fullwidth_banner_title{
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: -160px;
+	margin-left: 480px;
+}
+.fullwidth_banner_title_blue {
+	color: #0F8CE9;
+	margin-top: -20px;
+}
+.btn_3{/*стиль кнопки 3*/
+	background-color: #f10e34;
+	border:6px solid #f10e34;
+	border-radius: 22px;	
+	color: white;	
+	display:inline-block;
+	font-size:16px;
+	font-weight: bold;
+	padding: 9px 18px;
+	margin-left: 485px;
+	margin-top: -4px;
+	text-decoration: none;
+	width: 89px;
+}
+/*.............................
+FULLWIDTH BANNER
+*/
+/*.............................
+BANNER SPACE
+*/
+.banner_space_img{
+	margin: -191px 0px 0px 124px;
+}
+/*.............................
+BANNER SPACE
+*/
+/*.............................
+FEATURED PRODUCTS
+*/
+.featured_products_top{
+	background-color: White;
+	margin-top: -198px;
+	margin-left: 451px;
+	padding-left: 25px;
+	height: 220px;
+	width: 814px;
+ }
+ .featured_products_bottom{
+	background-color: White;
+	margin-left: 451px;
+	margin-top: -60px;
+	padding-left: 25px;
+	height: 170px;
+	width: 814px;
+ }
+  .featured_products_border {
+	float: left;
+	margin-left: 0px;
+	margin-top: 6px;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	width: 786px;
+}
+.featured_products_title{
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.featured_products_img {
+	float: left;
+	padding: 40px 16px 20px 10px;
+}
+.featured_products_text {
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-right: 25px;
+	text-align: left;
+}
+/*.............................
+FEATURED PRODUCTS
 */
 /*.............................
 FOOTER
@@ -360,13 +620,38 @@ FOOTER
 	background-color: #1F1E1E;
  	padding-top: 141px;
  }
-.footer_text {/*текст у футері*/
+.footer_column1 {/*текст у футері 1 колонка*/
+	float: left;
 	color: #B1B1B1;
 	font-size: 14px;
-	line-height: 1.7;
+	line-height: 1.9;
 	margin-top: -285px;
 	margin-left: -195px;
 	text-align: justify;
+}
+.footer_column_title{
+	color: White;
+	font-size: 21px;
+	font-weight: bold;
+}
+.footer_column_2_3_5 {/*текст у футері 2, 3, 5 колонки*/
+	float: left;
+	color: #B1B1B1;
+	font-size: 14px;
+	margin-top: -350px;
+	padding-left: 90px;
+	text-align: justify;
+}
+.footer_column_4 {/*текст у футері 4 колонка*/
+	float: left;
+	color: #B1B1B1;
+	font-size: 14px;
+	margin-top: -295px;
+	padding-left: 60px;
+	text-align: justify;
+}
+.footer_interval{
+line-height: 1.4;
 }  
 /*.............................
 FOOTER
