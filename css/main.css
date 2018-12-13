@@ -421,6 +421,7 @@ NEWSLETTERS
 	line-height: 1.2;
 }
 .searchbar2{/*контейнер для поля пошуку*/
+	border: 1px solid #E6E6E6;
 	float: left;
 	margin-left: 0px;
 	margin-top: 0px;
