@@ -4,7 +4,7 @@
 	<title>Multi Purpose</title><!--назва сторінки-->
 	<meta charset="UTF-8"><!--кодування-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css"> </*Нормалізація стилів, даний файл підключати перед підключенням стилів*/>
-	<link rel="stylesheet" href="main.css"> </*підключення стилів, не має закриваючого тега. css/main.css - шлях до файла*/>
+	<link rel="stylesheet" href="css/main.css"> </*підключення стилів, не має закриваючого тега. css/main.css - шлях до файла*/>
 	<!--підключення web-шрифтів-->
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> <!--Lato Regular-->
 	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet"> <!--Lato Bold-->
@@ -24,26 +24,24 @@ HEADER
 				<a class="line" href="#">Checkout</a>
 				<a class="line" href="#">Login</a>
 			</div>
-			<div >
-				<div class="img2" >
-					<img src="Cart.png" alt="Корзина">
-					<div class="head_text">
-						<p>TOTAL<br>$600</p>
-			       		</div>
-			       </div>
-			</div>
-		</div>		
-		<div id="main"><!-- Рядок під навігацією -->
-			<div id="header_logo">
-				<img src="Logo.png" alt="Логотип">
-			</div>
+		</div>
+		<div id="header_logo">
+			<img src="Logo.png" alt="Логотип">
 		</div>
 		<div class="searchbar1"><!-- Поле вводу -->
 			<p><input class="input1 border1" type="text" placeholder="     Search here..."></p>
+			<div class="searchbar-button"><!-- Кнопка поля вводу -->
+                		<a href="#" class="btn-default"><span class="fa fa-search"></span></a>
+                	</div>
                 </div>
-		<div class="searchbar-button"><!-- Кнопка поля вводу -->
-                	<a href="#" class="btn-default"><span class="fa fa-search"></span></a>
-                </div>
+                <div >
+			<div class="img2" >
+				<img src="Cart.png" alt="Корзина">
+				<div class="head_text">
+					<p>TOTAL<br>$600</p>
+				</div>
+		       </div>
+		</div>
 	</div>	
 <!-- .........................................................
 SECOND MENU
@@ -70,27 +68,23 @@ SECOND MENU
 BODY
 ................................................................-->
 	<div class="body_background">
-		<div id="main_body"> 
-			<div>
-				<div class="categories_menu"><!-- Categories Menu -->
-					<li><a href="#home">Clothing</a></li>
-					<li><a href="#news">Electronics</a></li>
-					<li><a href="#contact">Shoes</a></li>
-					<li><a href="#about">Watches</a></li>
-					<li><a href="#about">Jewellery</a></li>
-					<li><a href="#about">Health & Beauty</a></li>
-					<li><a href="#about">Kids & Babies</a></li>
-					<li><a href="#about">Sports</a></li>
-					<li><a href="#about">Home & Garden</a></li>  
-				</div>
+		<div class="clearfix">
+			<div class="categories_menu"><!-- Categories Menu -->
+				<li><a href="#home">Clothing</a></li>
+				<li><a href="#news">Electronics</a></li>
+				<li><a href="#contact">Shoes</a></li>
+				<li><a href="#about">Watches</a></li>
+				<li><a href="#about">Jewellery</a></li>
+				<li><a href="#about">Health & Beauty</a></li>
+				<li><a href="#about">Kids & Babies</a></li>
+				<li><a href="#about">Sports</a></li>
+				<li><a href="#about">Home & Garden</a></li>  
 			</div>
 			<div class="clearfix">
 				<div class="banner" >
-					<img src="Banner.jpg" alt="Баннер">
+					<img src="img/Banner.jpg" alt="Баннер">
 				</div>
 			</div>
-		</div>
-		<div class="clearfix">
 			<div class="banner_menu"><!-- Banner Menu -->
 				<div class="banner_navbar"> 
 					<a href="#"><b>MONEY BACK</b><br>30 Days Money Back Guarantee</a>
@@ -107,7 +101,7 @@ BODY
 					</div>
 				</div>
 				<div class="hot_deals_img" >
-					<img src="hot_deals.jpg" alt="Hot Deal">
+					<img src="img/hot_deals.jpg" alt="Hot Deal">
 				</div>
 				<div>
 				<div class="hot_deals_text2">
@@ -124,25 +118,25 @@ BODY
 					</div>
 				</div>
 				<div class="new_products_img" >
-					<img src="new_product_1.jpg" alt="Hot Deals">
+					<img src="img/new_product_1.jpg" alt="Hot Deals">
 				</div>
 				<div class="new_products_text2">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="new_products_img" >
-					<img src="new_product_2.jpg" alt="Hot Deals">
+					<img src="img/new_product_2.jpg" alt="Hot Deals">
 				</div>
 				<div class="new_products_text2">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="new_products_img" >
-					<img src="new_product_3.jpg" alt="Hot Deals">
+					<img src="img/new_product_3.jpg" alt="Hot Deals">
 				</div>
 				<div class="new_products_text2">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="new_products_img" >
-					<img src="new_product_4.jpg" alt="Hot Deals">
+					<img src="img/new_product_4.jpg" alt="Hot Deals">
 				</div>
 				<div class="new_products_text2">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
@@ -157,7 +151,7 @@ BODY
 					</div>
 				</div>
 				<div class="hot_deals_img" >
-					<img src="special_deal.jpg" alt="New Deals">
+					<img src="img/special_deal.jpg" alt="New Deals">
 				</div>
 				<div>
 				<div class="hot_deals_text2">
@@ -168,7 +162,7 @@ BODY
 		</div>
 		<div>
 			<div class="banner01"><!-- Banner01 -->
-				<img src="banner01.jpg" alt="Hot Deals">
+				<img src="img/banner01.jpg" alt="Hot Deals">
 			</div>
 			<div class="clearfix">
 				<div class="banner01_text">
@@ -181,7 +175,7 @@ BODY
 		</div>
 		<div>
 			<div class="banner02"><!-- Banner02 -->
-				<img src="banner02.jpg" alt="Hot Deals">
+				<img src="img/banner02.jpg" alt="Hot Deals">
 			</div>
 			<div>
 				<div class="banner02_text">
@@ -216,25 +210,25 @@ BODY
 					</div>
 				</div>
 				<div class="latest_products_img" >
-					<img src="latest_products_1.jpg" alt="Latest Products">
+					<img src="img/latest_products_1.jpg" alt="Latest Products">
 				</div>
 				<div class="latest_products_text">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="latest_products_img" >
-					<img src="latest_products_2.jpg" alt="Latest Products">
+					<img src="img/latest_products_2.jpg" alt="Latest Products">
 				</div>
 				<div class="latest_products_text">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="latest_products_img" >
-					<img src="latest_products_3.jpg" alt="Latest Products">
+					<img src="img/latest_products_3.jpg" alt="Latest Products">
 				</div>
 				<div class="latest_products_text">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="latest_products_img" >
-					<img src="latest_products_4.jpg" alt="Latest Products">
+					<img src="img/latest_products_4.jpg" alt="Latest Products">
 				</div>
 				<div class="latest_products_text">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
@@ -244,7 +238,7 @@ BODY
 		<div class="clearfix">
 			<div class="fullwidth_banner"><!-- Full Width Banner -->
 				<div class="three_notebooks_img">
-					<img src="3_notebooks.jpg" alt="Three Notebooks">
+					<img src="img/3_notebooks.jpg" alt="Three Notebooks">
 				</div>
 				<div class="fullwidth_banner_title">
 						<p>BEATYFULL LAPTOP</p>
@@ -257,7 +251,7 @@ BODY
 		</div>
 		<div>
 			<div class="banner_space_img"><!-- Banner Space -->
-				<img src="banner_space.jpg" alt="Banner Space">
+				<img src="img/banner_space.jpg" alt="Banner Space">
 			</div>
 		</div>
 		<div class="clearfix">
@@ -268,19 +262,19 @@ BODY
 					</div>
 				</div>
 				<div class="featured_products_img" >
-					<img src="featured_product_1.jpg" alt="Latest Products">
+					<img src="img/featured_product_1.jpg" alt="Latest Products">
 				</div>
 				<div class="featured_products_text">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="featured_products_img" >
-					<img src="featured_product_2.jpg" alt="Latest Products">
+					<img src="img/featured_product_2.jpg" alt="Latest Products">
 				</div>
 				<div class="featured_products_text">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 				</div>
 				<div class="featured_products_img" >
-					<img src="featured_product_3.jpg" alt="Latest Products">
+					<img src="img/featured_product_3.jpg" alt="Latest Products">
 				</div>
 				<div class="featured_products_text">
 					<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
@@ -289,19 +283,19 @@ BODY
 			<div class="clearfix">
 				<div class="featured_products_bottom"><!-- Featured Products row 2 -->
 					<div class="featured_products_img" >
-						<img src="featured_product_4.jpg" alt="Latest Products">
+						<img src="img/featured_product_4.jpg" alt="Latest Products">
 					</div>
 					<div class="featured_products_text">
 						<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 					</div>
 					<div class="featured_products_img" >
-						<img src="featured_product_5.jpg" alt="Latest Products">
+						<img src="img/featured_product_5.jpg" alt="Latest Products">
 					</div>
 					<div class="featured_products_text">
 						<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
 					</div>
 					<div class="featured_products_img" >
-						<img src="featured_product_6.jpg" alt="Latest Products">
+						<img src="img/featured_product_6.jpg" alt="Latest Products">
 					</div>
 					<div class="featured_products_text">
 						<p>Lorem ipsum dolor<br><span style="word-spacing: 15px;"><mark>$100.00</mark> $90.00</span></p>
@@ -332,8 +326,7 @@ FOOTER
 		<div id="footer_logo">
 			<img src="Logo.png" alt="Логотип">
 		</div>
-			
-			<div class="footer_column1">
+		<div class="footer_column1">
 			<p>This is Photoshop version of Lorem Ipsum.<br>Proin gravida nibh velit its' a cold world<br>out there.</p>
 			<p>0123 Main Road, Your City, NY 123456 </p>
 			<p class="footer_interval">(000) 2345-6789</p>
@@ -369,7 +362,6 @@ FOOTER
 	</div>
 </div>
 <div class="dark_footer_background">
-
 </div>
 <!-- .........................................................
 FOOTER
