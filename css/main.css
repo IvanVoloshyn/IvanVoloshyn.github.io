@@ -1,1 +1,665 @@
-
+﻿html, body {
+	font-family: 'Lato', sans-serif;
+	font-size=15px;
+	background-color: white;
+}
+.clearfix {
+	clear: both;
+	float: none;
+}
+/*.............................
+GRID
+*/
+#main {
+	display: flex;
+        display: -webkit-flex; /* Safari */
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 1170px;
+}
+#header_logo {
+	float: left;
+	margin-left: 124px;
+	margin-top: -85px;
+	padding-bottom: 50px;
+	width: 195px;
+}
+#footer_logo {
+	margin-top: -355px;
+	width: 195px;
+}
+.img2{
+	float: left;
+	margin-left: 1180px;
+	margin-top: -93px;
+        width: 195px;
+}
+.searchbar1{/*контейнер для поля пошуку*/
+	float: left;
+	margin-left: 240px;
+	margin-top: -70px;
+	width: 188px;
+}
+.searchbar-button{/*контейнер для кнопки поля пошуку*/
+        float: left;
+	margin-left: 530px;
+	margin-top: -53px;
+}
+/*.............................
+GRID
+*/
+/*.............................
+HEADER
+*/
+.header{ /*крапка значить звертання до класу*/
+	padding-bottom: 10px;
+ 	background-color: #222222;
+ 	padding-top: 16px;
+}
+.quicklinks {
+	background-color: #222222;
+	display: flex;
+	font-size: 12px;
+	height: 90px;
+	margin-left: 922px;
+}
+.quicklinks a {
+	color: white;
+	padding: 0px 14px;
+	text-decoration: none;
+	text-align: center;
+}
+.line {/*вертикальны лінії в Quick Menu*/
+	border-left: 1px solid white;
+	padding: 1px;
+	height: 14px;
+}
+.head_text {/*текст біля логотипу корзина*/
+	color: white;
+	font-size: 12px;
+	margin-top: -55px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+ .input1{ /*стиль поля пошуку*/
+	border:none;
+	display:block;
+	font-size:15px;
+ 	padding:9px;
+	width:300%
+}
+ .border1{/*стиль рамки поля пошуку*/
+	border-bottom:2px solid white;
+	border-radius: 5px;
+}
+.btn-default{/*стиль кнопки поля пошуку*/
+	background-color: #f10e34;
+	border:1px solid #f10e34;
+	border-radius: 0px 5px 5px 0px;	
+	display:inline-block;
+	color: white;	
+	font-size:15px;
+	padding:9px 18px;
+}
+/*.............................
+HEADER
+*/
+/*.............................
+SECOND MENU
+*/
+.second_menu{
+	background-color: #f10e34;
+ 	padding-top: 50px;
+ 	padding-bottom: 0px;
+ }
+ .navbar2-1 {/*іконка списку в Second Menu*/
+	background-color: none;
+	display: flex;
+	font-size: 15px;
+	margin-left: 140px;
+}
+.navbar2-1 a {
+	color: white;
+	margin-top: -34px;
+	padding: 0px 20px;
+	text-align: center;	
+	text-decoration: none;
+}
+ .navbar2-2 {/*CATEGORIES в Second Menu*/
+	background-color: none;
+	display: flex;
+	font-size: 15px;
+	margin-left: 140px;
+}
+.navbar2-2 a {
+	color: white;
+	margin-top: -34px;
+	padding: 0px 50px;
+	text-decoration: none;
+	text-align: center;	
+}
+.navbar3 {/*решта навігації з Second Menu*/
+	background-color: none;
+	display: flex;
+	font-size: 15px;
+	margin-left: 450px;
+}
+.navbar3 a {
+	color: white;
+	margin-top: -34px;
+	padding: 0px 20px;
+	text-align: center;	
+	text-decoration: none;
+}
+/*.............................
+SECOND MENU
+*/
+/*.............................
+BODY
+*/
+.body_background{
+	background-color: #F3F3F3;
+	height: 2408px;
+ }
+ .banner {
+	float: left;
+	margin: -468px 0px 0px 452px;
+} 	
+/*.............................
+BODY
+*/
+/*.............................
+CATEGORIES
+*/
+.categories_menu{
+	background-color: white;
+	display: block;
+	list-style-type: none;
+	list-style-image: url('caret-right.png');
+	margin-left: 124px;
+	width: 287px;
+ }
+li a {
+	border-top: 1px solid #FFF;	
+	border-color: rgba(234,234,234,1);
+	color: #000;
+	display: block;
+	font-size: 15px;
+	padding: 14px 18px 18px 30px;
+	text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+	background-color: #F3F3F3;
+}
+/*.............................
+CATEGORIES
+*/
+/*.............................
+BANNER BOTTOM
+*/
+.banner_menu{
+	background-color: #f10e34;
+	margin: -90px 0px 0px 452px;
+	padding: 9px 0px 9px 0px;
+	height: 72px;
+	width: 834px;
+ }
+.banner_navbar {/*решта навігації з Second Menu*/
+	background-color: none;
+	display: flex;
+	font-size: 15px;
+	padding-left: 28px;
+}
+.banner_navbar a {
+	color: white;
+	padding: 15px 40px 15px 38px;
+	line-height: 1.4;
+	text-align: center;
+	text-decoration: none;
+}
+/*.............................
+BANNER BOTTOM
+*/
+/*.............................
+HOT DEALS
+*/
+.hot_deals{
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin: 38px 0px 0px 124px;
+	padding-left: 20px;
+	padding-bottom: 424px;
+	width: 267px;
+ }
+.title_text1{
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+}
+ .hot_deals_img {
+	float: left;
+	padding: 20px 0px 10px 0px;
+	/*border-top: 1px solid #FFF;*/
+	border-color: rgba(234,234,234,1);
+}
+.hot_deals_text2{
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.7;
+	/*margin-top: 90px;*/
+	/*margin-top: 30px;*/
+	text-align: center;
+	margin-left: 55px;
+}
+mark {
+	text-decoration: line-through;
+	background: none;
+	color: #B1B1B1;
+	word-spacing: 10px;
+   }
+ .grey_border_short {
+	float: left;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	margin-top: 4px;
+	width: 250px;
+}
+/*.............................
+HOT DEALS
+*/
+/*.............................
+NEW PRODUCTS
+*/
+.new_products{
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin-top: -423px;
+	margin-left: 451px;
+	padding-left: 15px;
+	padding-top: 10px;
+	height: 414px;
+	width: 822px;
+ }
+.title_text2{
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: -62px;
+	padding-top: -40px;
+	margin-left: 5px;
+}
+.new_products_img {
+	float: left;
+	padding: 25px 14px 10px 10px;
+	margin-top: -234px;
+}
+ .new_products_border {
+	float: left;
+	margin-left: 10px;
+	margin-top: -236px;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	width: 776px;
+}
+.new_products_text2	{
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.7;
+	margin-left: -168px;
+	text-align: center;
+}
+/*.............................
+NEW PRODUCTS
+*/
+/*.............................
+SPECIAL DEALS
+*/
+.special_deal {
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin: 30px 0px 0px 124px;
+	padding-left: 20px;
+	padding-bottom: 424px;
+	width: 267px;
+ }
+ .title_text_special_deal {
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+}	
+/*.............................
+SPECIAL DEALS
+*/
+/*.............................
+BANNER01
+*/
+.banner01 {
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin-left: 451px;	
+	margin-top: -424px;
+	height: 225px;
+	width: 396px;
+ }
+.banner01_text{
+	color: #DFDBDC;
+	float: left;
+	font-size: 32px;
+	line-height: 1;
+	margin-top: -350px;
+	text-align: right;
+	margin-left: 675px;
+	width: 150px;
+}
+.banner01_text2 {
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+	margin-top: -25px;
+}
+.banner01_text3 {
+	font-size: 14px;
+	color: #108cee;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.banner01_text4 {
+	font-size: 12px;
+	color: #DFDBDC;
+	padding-top: 8px;
+}
+/*.............................
+BANNER01
+*/
+/*.............................
+BANNER02
+*/
+.banner02 {
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin-top: -388px;
+	margin-left: 890px;
+	height: 225px;
+	width: 396px;
+ }
+ .banner02_text{
+	color: #DFDBDC;
+	font-size: 32px;
+	line-height: 1;
+	margin-top: -190px;
+	text-align: right;
+	margin-left: 1101px;
+	width: 150px;
+}
+/*.............................
+BANNER02
+*/
+/*.............................
+NEWSLETTERS
+*/
+.newsletters {
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin: 275px 0px 0px 124px;
+	padding-left: 20px;
+	height: 266px;
+	width: 267px;
+ }
+.newsletters_grey_border{
+	float: left;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	width: 247px;
+}
+.newsletters_text2{
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.2;
+}
+.searchbar2{/*контейнер для поля пошуку*/
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.input2{ /*стиль поля пошуку 2*/
+	background-color:  #F3F3F3;
+	display:block;
+	margin-top: -8px;
+ 	padding: 12px;
+	width: 227px;
+}
+ .border2{/*стиль рамки поля пошуку 2*/
+	border: 1px solid #F3F3F3;
+	border-radius: 5px;
+}
+.btn_2{/*стиль кнопки поля пошуку 2*/
+	background-color: #f10e34;
+	border:6px solid #f10e34;
+	border-radius: 20px;	
+	color: white;	
+	display:inline-block;
+	font-size:16px;
+	font-weight: bold;
+	padding:9px 18px;
+	text-decoration: none;
+	width: 85px;
+}
+/*.............................
+NEWSLETTERS
+*/
+/*.............................
+LATEST PRODUCTS
+*/
+.latest_products{
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin-top: -462px;
+	margin-left: 451px;
+	padding-left: 15px;
+	height: 424px;
+	width: 822px;
+ }
+.latest_products_img {
+	float: left;
+	margin-top: -210px;
+	padding: 0px 14px 10px 10px;
+}
+ .latest_products_border {
+	float: left;
+	margin-left: 10px;
+	margin-top: -265px;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	width: 776px;
+}
+.latest_products_title{
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: -38px;
+	margin-left: 5px;
+}
+.latest_products_text	{
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.7;
+	margin-left: -160px;
+	margin-top: -8px;
+	text-align: center;
+}
+/*.............................
+LATEST PRODUCTS
+*/
+/*.............................
+FULLWIDTH BANNER
+*/
+.fullwidth_banner{
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin-top: 36px;
+	margin-left: 451px;
+	height: 226px;
+	width: 838px;
+ }
+ .three_notebooks_img{
+	padding: 32px 0px 0px 25px;
+ }
+ .fullwidth_banner_title{
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: -160px;
+	margin-left: 480px;
+}
+.fullwidth_banner_title_blue {
+	color: #0F8CE9;
+	margin-top: -20px;
+}
+.btn_3{/*стиль кнопки 3*/
+	background-color: #f10e34;
+	border:6px solid #f10e34;
+	border-radius: 22px;	
+	color: white;	
+	display:inline-block;
+	font-size:16px;
+	font-weight: bold;
+	padding: 9px 18px;
+	margin-left: 485px;
+	margin-top: -4px;
+	text-decoration: none;
+	width: 89px;
+}
+/*.............................
+FULLWIDTH BANNER
+*/
+/*.............................
+BANNER SPACE
+*/
+.banner_space_img{
+	margin: -191px 0px 0px 124px;
+}
+/*.............................
+BANNER SPACE
+*/
+/*.............................
+FEATURED PRODUCTS
+*/
+.featured_products_top{
+	background-color: White;
+	border: 1px solid #E6E6E6;
+	margin-top: -198px;
+	margin-left: 451px;
+	padding-left: 25px;
+	height: 220px;
+	width: 814px;
+ }
+ .featured_products_bottom{
+	background-color: White;
+	border-right: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	margin-left: 451px;
+	margin-top: -60px;
+	padding-left: 25px;
+	height: 170px;
+	width: 814px;
+ }
+  .featured_products_border {
+	float: left;
+	margin-left: 0px;
+	margin-top: 6px;
+	border-bottom: 1px solid #FFF;
+	border-color: rgba(234,234,234,1);
+	width: 786px;
+}
+.featured_products_title{
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.featured_products_img {
+	float: left;
+	padding: 40px 16px 20px 10px;
+}
+.featured_products_text {
+	color: #000;
+	float: left;
+	font-size: 15px;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-right: 25px;
+	text-align: left;
+}
+/*.............................
+FEATURED PRODUCTS
+*/
+/*.............................
+FOOTER
+*/
+.red_footer_background{
+	background-color: #F10C34;
+ 	padding-top: 133px;
+ }
+ .brand_slider_menu{ /*меню з логотипами на червоному фоні*/
+	background-color: #F10C34;
+ }
+.navbar4 {/*навігації з логотипами*/
+	background-color: none;
+	display: flex;
+	margin-left: 120px;
+	margin-top: -65px;
+}
+.navbar4 a {
+	margin-top: -65px;
+	padding: 0px 90px 0px 10px;
+} 
+.grey_footer_background{
+	background-color: #222222;
+ 	padding-top: 408px;
+ }
+.dark_footer_background{
+	background-color: #1F1E1E;
+ 	padding-top: 141px;
+ }
+.footer_column1 {/*текст у футері 1 колонка*/
+	float: left;
+	color: #B1B1B1;
+	font-size: 14px;
+	line-height: 1.9;
+	margin-top: -285px;
+	margin-left: -195px;
+	text-align: justify;
+}
+.footer_column_title{
+	color: White;
+	font-size: 21px;
+	font-weight: bold;
+}
+.footer_column_2_3_5 {/*текст у футері 2, 3, 5 колонки*/
+	float: left;
+	color: #B1B1B1;
+	font-size: 14px;
+	margin-top: -350px;
+	padding-left: 90px;
+	text-align: justify;
+}
+.footer_column_4 {/*текст у футері 4 колонка*/
+	float: left;
+	color: #B1B1B1;
+	font-size: 14px;
+	margin-top: -295px;
+	padding-left: 60px;
+	text-align: justify;
+}
+.footer_interval{
+line-height: 1.4;
+}  
+/*.............................
+FOOTER
+*/
