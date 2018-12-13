@@ -173,9 +173,9 @@ CATEGORIES
 */
 .categories_menu{
 	background-color: white;
-	display: block;
+	/*display: block;*/
 	list-style-type: none;
-	list-style-image: url('caret-right.png');
+	/*list-style-image: url('caret-right.png');*/
 	margin-left: 124px;
 	width: 287px;
  }
@@ -190,7 +190,7 @@ li a {
 }
 /* Change the link color on hover */
 li a:hover {
-	background-color: #F3F3F3;
+	background-color: #E6E6E6;
 }
 /*.............................
 CATEGORIES
@@ -261,10 +261,9 @@ mark {
    }
  .grey_border_short {
 	float: left;
-	border-bottom: 1px solid #FFF;
-	border-color: rgba(234,234,234,1);
+	border-bottom: 1px solid 234;
 	margin-top: 4px;
-	width: 250px;
+	width: 250px; border-left-color:1); border-right-color:234; border-top-color:rgba(234
 }
 /*.............................
 HOT DEALS
@@ -299,9 +298,8 @@ NEW PRODUCTS
 	float: left;
 	margin-left: 10px;
 	margin-top: -236px;
-	border-bottom: 1px solid #FFF;
-	border-color: rgba(234,234,234,1);
-	width: 776px;
+	border-bottom: 1px solid 234;
+	width: 776px; border-left-color:1); border-right-color:234; border-top-color:rgba(234
 }
 .new_products_text2	{
 	color: #000;
@@ -410,9 +408,8 @@ NEWSLETTERS
  }
 .newsletters_grey_border{
 	float: left;
-	border-bottom: 1px solid #FFF;
-	border-color: rgba(234,234,234,1);
-	width: 247px;
+	border-bottom: 1px solid 234;
+	width: 247px; border-left-color:1); border-right-color:234; border-top-color:rgba(234
 }
 .newsletters_text2{
 	color: #000;
@@ -472,9 +469,8 @@ LATEST PRODUCTS
 	float: left;
 	margin-left: 10px;
 	margin-top: -265px;
-	border-bottom: 1px solid #FFF;
-	border-color: rgba(234,234,234,1);
-	width: 776px;
+	border-bottom: 1px solid 234;
+	width: 776px; border-left-color:1); border-right-color:234; border-top-color:rgba(234
 }
 .latest_products_title{
 	color: #000;
@@ -573,9 +569,8 @@ FEATURED PRODUCTS
 	float: left;
 	margin-left: 0px;
 	margin-top: 6px;
-	border-bottom: 1px solid #FFF;
-	border-color: rgba(234,234,234,1);
-	width: 786px;
+	border-bottom: 1px solid 234;
+	width: 786px; border-left-color:1); border-right-color:234; border-top-color:rgba(234
 }
 .featured_products_title{
 	color: #000;
