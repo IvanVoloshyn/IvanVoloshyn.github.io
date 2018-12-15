@@ -25,7 +25,7 @@ HEADER
 				<a class="line" href="#">Login</a>
 			</div>
 		</div>
-		<div id="header_logo">
+		<div data-tooltip="Логотип" id="header_logo">
 			<img src="img/Logo.png" alt="Логотип">
 		</div>
 		<div class="searchbar1"><!-- Поле вводу -->
@@ -68,8 +68,8 @@ SECOND MENU
 BODY
 ................................................................-->
 	<div class="body_background">
-		<div class="clearfix">
-			<div class="categories_menu"><!-- Categories Menu -->
+		<div class="clearfix" >
+			<div data-tooltip="Меню категорій" class="categories_menu"><!-- Categories Menu -->
 				<li><a href="#home"><img src="img/caret-right.png">Clothing</a></li>
 				<li><a href="#news"><img src="img/caret-right.png">Electronics</a></li>
 				<li><a href="#contact"><img src="img/caret-right.png">Shoes</a></li>
@@ -82,7 +82,7 @@ BODY
 			</div>
 			<div class="clearfix">
 				<div class="banner" >
-					<img src="img/Banner.jpg" alt="Баннер">
+					<img src="img/Banner.jpg" alt="Баннер" name="graph" border=0 onMouseOver="graphON('graph')" onMouseOut="graphOFF('graph')">
 				</div>
 			</div>
 			<div class="banner_menu"><!-- Banner Menu -->
@@ -366,5 +366,6 @@ FOOTER
 <!-- .........................................................
 FOOTER
 ................................................................-->
+<script src="banner_change_color.js"></script>
 </body> 
 </html>
